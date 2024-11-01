@@ -1,0 +1,49 @@
+{
+    "intents": [
+        {
+            "tag": "consulta_legal",
+            "patterns": ["¿Necesito un abogado?", "¿Qué es un abogado?", "¿Cuándo debo buscar asesoría legal?", "¿Dónde puedo obtener ayuda legal?", "¿Qué hace un abogado?", "¿Qué servicios ofrece un abogado?"],
+            "responses": ["Un abogado puede ayudarte a entender y resolver situaciones legales complejas.", "Si tienes problemas legales, es recomendable buscar asesoría de un abogado especializado.", "Para obtener asesoría legal, puedes acudir a un abogado o a organizaciones de asistencia jurídica.", "Los abogados proporcionan orientación, defensa y representación en asuntos legales."]
+        },
+        {
+            "tag": "derechos_laborales",
+            "patterns": ["¿Cuáles son mis derechos laborales?", "¿Tengo derecho a vacaciones?", "¿Qué derechos tengo en el trabajo?", "¿Qué puedo hacer si me despiden?", "¿Tengo derecho a una pensión?", "¿Qué es la jornada laboral?"],
+            "responses": ["Como trabajador, tienes derecho a un ambiente de trabajo seguro, salario justo y vacaciones.", "Dependiendo de tu contrato y leyes laborales, podrías recibir una indemnización por despido injustificado.", "La seguridad social protege a los trabajadores en casos de enfermedad, desempleo y jubilación.", "Tienes derecho a una jornada laboral justa y a descansos durante el día."]
+        },
+        {
+            "tag": "contratos",
+            "patterns": ["¿Qué es un contrato?", "¿Qué incluye un contrato?", "¿Es obligatorio firmar un contrato?", "¿Puedo romper un contrato?", "¿Cuáles son las cláusulas de un contrato?", "¿Cómo puedo terminar un contrato de manera legal?"],
+            "responses": ["Un contrato es un acuerdo legal que define los derechos y obligaciones de las partes involucradas.", "Es importante leer y entender todas las cláusulas antes de firmar un contrato.", "Si tienes dudas, consulta a un abogado antes de firmar o rescindir un contrato.", "Romper un contrato sin causa justificada podría tener consecuencias legales."]
+        },
+        {
+            "tag": "derecho_penal",
+            "patterns": ["¿Qué es el derecho penal?", "¿Qué sucede si se comete un delito?", "¿Qué es una denuncia?", "¿Cuándo se debe llamar a la policía?", "¿Cuáles son las consecuencias de un delito?", "¿Qué tipos de delitos existen?"],
+            "responses": ["El derecho penal regula los delitos y las sanciones por violaciones a la ley.", "Puedes denunciar un delito ante la policía o un juzgado para iniciar el proceso legal.", "Es importante reportar cualquier situación que amenace la seguridad pública.", "Los delitos pueden clasificarse en diferentes categorías, como delitos menores y graves, cada uno con sus propias consecuencias legales."]
+        },
+        {
+            "tag": "asesoria_juridica_gratuita",
+            "patterns": ["¿Dónde puedo encontrar asesoría jurídica gratuita?", "¿Existe asistencia legal gratuita?", "¿Cómo puedo obtener ayuda legal sin costo?", "¿Hay abogados que ofrecen servicios gratuitos?", "¿Las universidades ofrecen asesoría legal gratuita?", "¿Qué es la asesoría jurídica gratuita?"],
+            "responses": ["Hay organizaciones de asistencia jurídica que ofrecen servicios gratuitos para personas de bajos ingresos.", "Puedes acudir a una oficina de ayuda jurídica en tu localidad para obtener asesoría legal gratuita.", "Muchas universidades de derecho tienen programas de asesoría jurídica gratuita para ayudar a la comunidad.", "Algunas organizaciones sin fines de lucro también brindan asesoría gratuita o de bajo costo."]
+        },
+        {
+            "tag": "derecho_familiar",
+            "patterns": ["¿Qué es el derecho familiar?", "¿Qué derechos tengo sobre la custodia de mis hijos?", "¿Qué implica un divorcio?", "¿Cómo se tramita la pensión alimenticia?", "¿Cuáles son mis derechos como padre o madre?", "¿Qué es la adopción?"],
+            "responses": ["El derecho familiar regula temas como el matrimonio, el divorcio, la custodia de los hijos y la adopción.", "En caso de divorcio, un juez puede determinar la custodia de los hijos y la pensión alimenticia.", "Como padre o madre, tienes derechos y responsabilidades sobre el bienestar de tus hijos.", "La adopción es un proceso legal que permite a una persona o pareja convertirse en los padres legales de un niño."]
+        },
+        {
+            "tag": "derecho_civil",
+            "patterns": ["¿Qué es el derecho civil?", "¿Cómo puedo resolver un conflicto civil?", "¿Qué es un contrato civil?", "¿Qué son las obligaciones civiles?", "¿Cuándo puedo demandar a alguien?", "¿Qué pasa si alguien incumple un contrato civil?"],
+            "responses": ["El derecho civil regula las relaciones legales entre personas, como contratos y obligaciones.", "Si tienes un conflicto civil, puedes resolverlo mediante mediación, arbitraje o una demanda civil.", "Un contrato civil es un acuerdo entre dos partes que crea obligaciones mutuas.", "Si alguien incumple un contrato civil, podrías tener derecho a una compensación."]
+        },
+        {
+            "tag": "derecho_inmobiliario",
+            "patterns": ["¿Qué es el derecho inmobiliario?", "¿Qué debo saber antes de comprar una propiedad?", "¿Qué es un contrato de arrendamiento?", "¿Cuáles son los derechos del arrendatario?", "¿Puedo desalojar a un inquilino?", "¿Qué es un título de propiedad?"],
+            "responses": ["El derecho inmobiliario regula las transacciones y contratos relacionados con bienes raíces.", "Antes de comprar una propiedad, es importante verificar el título de propiedad y posibles gravámenes.", "Un contrato de arrendamiento define los derechos y obligaciones de arrendador y arrendatario.", "El desalojo de un inquilino debe seguir un proceso legal específico en la mayoría de los casos."]
+        },
+        {
+            "tag": "derecho_comercial",
+            "patterns": ["¿Qué es el derecho comercial?", "¿Qué necesito para abrir un negocio?", "¿Qué es una sociedad?", "¿Cómo puedo proteger mi marca?", "¿Qué es una patente?", "¿Cuáles son las obligaciones fiscales de una empresa?"],
+            "responses": ["El derecho comercial regula las actividades y relaciones de las empresas y comercios.", "Para abrir un negocio, necesitas cumplir con los requisitos legales y fiscales de tu país.", "Una sociedad es un acuerdo entre personas para realizar actividades comerciales de manera conjunta.", "Registrar una marca o patente protege tus derechos sobre tus productos o servicios."]
+        }
+    ]
+}
